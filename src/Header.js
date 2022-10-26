@@ -6,7 +6,7 @@ const Header = () => {
         <>
         <div className="header">
             <img className ="image" src={logo} alt="logo" />
-            <Link to="/login" className = "avatar" >
+            <Link to="/resource-management-portal" className = "avatar" >
                 <img data-tip data-for="registerTip" 
                 src = {myAvatar} alt = "avatar" style={{width:"40px",borderRadius:"50%"}}/>
             </Link>

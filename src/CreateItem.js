@@ -86,15 +86,15 @@ const CreateItem = () => {
                 <div className="create">
       <h2>Item Details</h2>
       <form onSubmit={handleSubmit}>
-        <div style={{textAlign:"left",fontStize:"12px",color:"#7E858E",paddingBottom:"0px"}}>ITEM NAME</div>
+        <div style={{textAlign:"left",color:"#7E858E"}}>ITEM NAME</div>
         <input 
           type="text" 
           value={formValues.itemName}
           onChange={handleChange}
           name="itemName"
         />
-        <div style={{textAlign:"left",color:"red",fontSize:"12px"}}>{formErrors.itemName}</div>
-        <div style={{textAlign:"left",fontStize:"12px",color:"#7E858E",marginTop:"20px"}}>LINK</div>
+        <div style={{textAlign:"left",color:"red",fontSize:"10px"}}>{formErrors.itemName}</div>
+        <div style={{textAlign:"left",color:"#7E858E",marginTop:"10px"}}>LINK</div>
         <input 
           type="text" 
           value={formValues.link}
@@ -102,22 +102,24 @@ const CreateItem = () => {
           name="link"
           style={{color:"blue"}}
         />
-        <div style={{textAlign:"left",color:"red",fontSize:"12px"}}>{formErrors.link}</div>
-        <div style={{textAlign:"left",fontStize:"12px",color:"#7E858E",width:"450px",marginTop:"20px"}}>RESOURCE NAME</div>
+        <div style={{textAlign:"left",color:"red",fontSize:"10px"}}>{formErrors.link}</div>
+        <div style={{textAlign:"left",color:"#7E858E",width:"450px",marginTop:"10px"}}>RESOURCE NAME</div>
         <input 
           type="text" 
           value={formValues.resourceName}
           onChange={handleChange}
           name="resourceName"
         />
-        <div style={{textAlign:"left",color:"red",fontSize:"12px"}}>{formErrors.resourceName}</div>
-        <div style={{textAlign:"left",fontStize:"12px",color:"#7E858E",width:"450px",marginTop:"20px"}}>DESCRIPTION</div>
-        <textarea
+        <div style={{textAlign:"left",color:"red",fontSize:"10px"}}>{formErrors.resourceName}</div>
+        <div style={{textAlign:"left",fontStize:"12px",color:"#7E858E",width:"450px",marginTop:"10px"}}>DESCRIPTION</div>
+        <input
+        type="text"
+        style={{height:"60px"}}
           value={formValues.description}
           onChange={handleChange}
           name="description"
         />
-        <div style={{textAlign:"left",color:"red",fontSize:"12px"}}>{formErrors.description}</div>
+        <div style={{textAlign:"left",color:"red",fontSize:"10px"}}>{formErrors.description}</div>
         <button>CREATE</button>
       </form>
     </div>

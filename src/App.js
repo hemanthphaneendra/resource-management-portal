@@ -13,11 +13,11 @@ function App() {
       <Header />
       <div className="content">
         <Routes>
-          <Route path="/" element={<Navigate replace to="/login" />} />
-          <Route path="/Login" element={ <Login /> }/>
-          <Route path="/home" element={ <Home /> } />
-          <Route path="/resource/:id.json" element={ <ResourceDetails /> } />
-          <Route path="/create" element={ <CreateItem /> } />
+          <Route path="/" element={<Navigate replace to="/resource-management-portal/" />} />
+          <Route path="/resource-management-portal/" element={ <Login /> }/>
+          <Route path="/resource-management-portal/home" element={ <Home /> } />
+          <Route path="/resource-management-portal/resource/:id.json" element={ <ResourceDetails /> } />
+          <Route path="/resource-management-portal/create" element={ <CreateItem /> } />
           <Route path="*" element = { <NotFound />} />
         </Routes>
       </div>

@@ -1,23 +1,19 @@
-/* create new blog form */
 .create {
     max-width: 500px;
-    margin: 0 auto;
     padding-left: 35%;
     text-align: center;
-    padding-top: 30px;
   }
   .create h2 {
-    font-size: 32px;
+    font-size: 25px;
     color:#171F46;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .create input, .create textarea, .create select {
     width: 100%;
     padding: 6px 10px;
-    margin-top: 10px;
+    margin-top: 5px;
     border: 1px solid #ddd;
     box-sizing: border-box;
-    /* display: block; */
   }
   .create button {
     background: #0B69FF;
@@ -26,4 +22,9 @@
     padding: 8px 15px;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .create div{
+    font-size: 10px;
   }

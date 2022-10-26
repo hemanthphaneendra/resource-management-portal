@@ -128,7 +128,7 @@ const ResourceDetailsTable = ({resourceItemsList}) => {
         </table>
         <div style={{display:"flex",paddingTop:"20px"}}>
         <div>
-            <Link to="/create"><button disabled={selectedFlatRows.length>0} style={{marginTop:"10px",
+            <Link to="/resource-management-portal/create"><button disabled={selectedFlatRows.length>0} style={{marginTop:"10px",
             paddingTop:"10px",backgroundColor:selectedFlatRows.length>0?"#D7DFE9":"#2DCA73",
             color:"white",fontSize:"14px",padding:"10px 15px",border:"none",borderRadius:"5px"}}>
                 ADD ITEM

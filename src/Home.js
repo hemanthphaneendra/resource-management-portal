@@ -18,9 +18,9 @@ const Home = () => {
         <div className="home" >
             <div className="btn-group" style={{display: "block",marginLeft: "auto",marginRight: "auto",
             width:"50%",paddingBottom:"30px"}}>
-                <button id="resourcesTab" onClick={handleTap} style={{width:"200px",backgroundColor:tabPage==="resourcesTab"?"blue":"rgba(215, 223, 233, 0.24)",color:tabPage==="resourcesTab"?"white":"darkBlue"}}>Resources</button>
-                <button id="requestsTab" onClick={handleTap} style={{width:"200px",backgroundColor:tabPage==="requestsTab"?"blue":"rgba(215, 223, 233, 0.24)",color:tabPage==="requestsTab"?"white":"darkBlue"}}>Requests</button>
-                <button id="usersTab" onClick={handleTap} style={{width:"200px",backgroundColor:tabPage==="usersTab"?"blue":"rgba(215, 223, 233, 0.24)",color:tabPage==="usersTab"?"white":"darkBlue"}}>Users</button>
+                <button id="resourcesTab" onClick={handleTap} style={{width:"170px",backgroundColor:tabPage==="resourcesTab"?"blue":"rgba(215, 223, 233, 0.24)",color:tabPage==="resourcesTab"?"white":"darkBlue"}}>Resources</button>
+                <button id="requestsTab" onClick={handleTap} style={{width:"170px",backgroundColor:tabPage==="requestsTab"?"blue":"rgba(215, 223, 233, 0.24)",color:tabPage==="requestsTab"?"white":"darkBlue"}}>Requests</button>
+                <button id="usersTab" onClick={handleTap} style={{width:"170px",backgroundColor:tabPage==="usersTab"?"blue":"rgba(215, 223, 233, 0.24)",color:tabPage==="usersTab"?"white":"darkBlue"}}>Users</button>
             </div>
             <div className="boxContainer">
                 <table className="elementsContainer">

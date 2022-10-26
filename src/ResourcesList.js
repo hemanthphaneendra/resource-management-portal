@@ -9,10 +9,10 @@ const ResorcesList = ({ resources }) => {
             {
                 resources.map(
                     resource => (
-                        <card key={ resource.id } style={{border:"1px solid lightGray",width:"360px",
+                        <card key={ resource.id } style={{border:"1px solid lightGray",width:"300px",
                         marginLeft: "50px",marginBottom: "30px",backgroundColor: "white",
                         borderRadius: "5px"}}>
-                            <Link to={`/resource/${resource.id}.json`} style={{textDecoration:"none"}}>
+                            <Link to={`/resource-management-portal/resource/${resource.id}.json`} style={{textDecoration:"none"}}>
                             <table>
                                 <tr>
                                     <td>
