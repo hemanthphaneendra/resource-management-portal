@@ -1,0 +1,22 @@
+.resource-details-screen {
+    padding-top: 30px;
+    padding-right: 80px;
+}
+.circle-container {
+    border:1px solid lightGray;
+    width:64px;
+    height:64px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+.resourceImg {
+    border-radius: 50%;
+    width:30px;
+    height: 30px;
+    margin-top:16px;
+    margin-left:16px;
+    margin-right:10px;
+    margin-bottom:12px;
+}

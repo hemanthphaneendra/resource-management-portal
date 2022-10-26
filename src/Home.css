@@ -1,0 +1,106 @@
+.home {
+    padding-top: 50px;
+    padding-right: 80px;
+}
+.card {
+    height: 192px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.img-container {
+    border:1px solid lightGray;
+    width:44px;
+    height:44px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.cardImg {
+    border-radius: 50%;
+    width:24px;
+    height: 24px;
+    margin-top:10px;
+    margin-left:9px;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+.cardTitle {
+    --adoBlue: #171F46;
+    color: var(--adoBlue);
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.cardCategory {
+    --adoGrey:#7E858E;
+    color:var(--adoGrey);
+    font-size: 12px;
+    padding-left: 10px;
+}
+.cardLink {
+    font-size: 14px;
+    color: blue;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 1px;
+}
+.cardDesc {
+    --adoGrey:#7E858E;
+    font-size: 14;
+    color: var(--adoGrey);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+.btn-group button {
+    background-color: rgba(215, 223, 233, 0.24);
+    border: 1px solid var(--adoGrey);
+    color: black;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left;
+  }
+  
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none;
+  }
+  
+  .boxContainer {
+      width: 650px;
+      height: 40px;
+      border: 1px solid #D7DFE9;
+      background-color: white;
+      margin-bottom: 30px;
+      margin-left: 38px;
+  }
+  .elemantsContainer {
+      width: 100%;
+      height:100%;
+      vertical-align: middle;
+  }
+  .search {
+      border: none;
+      height: 100%;
+      width: 605px;
+      margin-left: 5px;
+  }
+  .search:focus {
+      outline: none;
+  }
+  .material-icon {
+      font-size: 12px;
+      width: 12px;
+      height: 12px;
+      color: darkblue;
+      margin-left: 10px;
+      margin-top: 7px;
+  }
