@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/resource-management-portal/static/css/main.043a1916.css",
+    "main.js": "/resource-management-portal/static/js/main.c9f6ddd9.js",
+    "index.html": "/resource-management-portal/index.html",
+    "main.043a1916.css.map": "/resource-management-portal/static/css/main.043a1916.css.map",
+    "main.c9f6ddd9.js.map": "/resource-management-portal/static/js/main.c9f6ddd9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.043a1916.css",
+    "static/js/main.c9f6ddd9.js"
+  ]
+}
