@@ -31,7 +31,7 @@ const ResourceDetails = () => {
             { resource && (
                 <>
                     <div style={{display:"flex"}}>
-                        <Link to='/home' style={{textDecoration:"none"}}><ArrowBackIosNewIcon style={{color:"darkBlue",height:"22px",width:"20px"}}/></Link>
+                        <Link to='/resource-management-portal/home' style={{textDecoration:"none"}}><ArrowBackIosNewIcon style={{color:"darkBlue",height:"22px",width:"20px"}}/></Link>
                         <p style={{paddingLeft:"8px",paddingBottom:"3px",fontSize:"14px",color:"#7E858E",paddingTop:"3px"}}>Resources</p>
                     </div>
                     <div className="circle-container" style={{display:"flex"}}>
